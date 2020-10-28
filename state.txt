@@ -1,0 +1,34 @@
+ 
+// state
+// React component is build in react state
+// In the state object  , we store property value that belong to react component
+// when state change/modified component re-redner
+// The state object modified in setState() function
+
+
+import React from 'react';
+
+class StateExample extends React.Component{
+	constructor(){
+		super();
+	this.state = {		
+		brand: 'wc',
+		color: 'State now black color',
+		weight: '500'
+	}	
+	}	
+	//setState used for state modification beacuse state directly not modification 
+	changeColor =() => {
+		this.setState({color: 'State change of green color'});
+		
+	}	
+	render() {
+		return(
+		<span>{this.state.color}</span>		
+		<br />
+		<button type="button" onClick={this.changeColor}>Change State</button>
+		)
+	}
+	
+}
+export default StateExample;
