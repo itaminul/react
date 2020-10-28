@@ -1,0 +1,18 @@
+// component
+// Every react ui build many component
+// Component split into independent
+// component reusable
+// Each component exist in the same page but they work independently each one another and marge all build a parent component
+// React two type of component , one class component another function component 
+import React from 'react';
+
+//class component
+class ClassComponent extends React.Component{	
+	render() {
+		return(
+		<span>I am a class component</span>
+		)
+	}
+	
+}
+export default ClassComponent;
