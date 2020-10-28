@@ -16,3 +16,12 @@ class ClassComponent extends React.Component{
 	
 }
 export default ClassComponent;
+
+//function component
+function functionComponent() {	
+		return(
+		<span>I am a function component</span>
+		)
+	
+}
+export default functionComponent;
