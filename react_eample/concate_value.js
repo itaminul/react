@@ -1,0 +1,1 @@
+const concateValue = [].concat(courses, subjects, classTypes, classRooms)
